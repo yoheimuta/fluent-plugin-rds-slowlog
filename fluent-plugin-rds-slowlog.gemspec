@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "fluent-plugin-rds-slowlog"
+  gem.name          = "fluent-plugin-rds-slowlog-patched-encoding"
   gem.version       = "0.0.8"
   gem.authors       = ["kenjiskywalker", "winebarrel"]
   gem.email         = ["git@kenjiskywalker.org", "sgwr_dts@yahoo.co.jp"]
